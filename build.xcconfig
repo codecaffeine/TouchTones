@@ -1,0 +1,10 @@
+//
+//  build.xcconfig
+//
+//  Created by Matt Thomas on 2/4/09.
+//  Copyright 2010 Code/Caffeine. All rights reserved.
+//
+
+#include "hoseyify.xcconfig"
+
+CC_BUILD_VERSION = 0

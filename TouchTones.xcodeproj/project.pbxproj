@@ -22,6 +22,8 @@
 		C99D1EB612CC445600A9431B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C99D1EB512CC445600A9431B /* InfoPlist.strings */; };
 		C99D1EB812CC445600A9431B /* TouchTonesTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C99D1EB712CC445600A9431B /* TouchTonesTests.h */; };
 		C99D1EBA12CC445600A9431B /* TouchTonesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C99D1EB912CC445600A9431B /* TouchTonesTests.m */; };
+		C99D1EC812CC47ED00A9431B /* hoseyify.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C99D1EC712CC47ED00A9431B /* hoseyify.xcconfig */; };
+		C99D1ECA12CC486E00A9431B /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C99D1EC912CC486E00A9431B /* build.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		C99D1EB512CC445600A9431B /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = en.lproj/TouchTonesTests/InfoPlist.strings; sourceTree = "<group>"; };
 		C99D1EB712CC445600A9431B /* TouchTonesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchTonesTests.h; sourceTree = "<group>"; };
 		C99D1EB912CC445600A9431B /* TouchTonesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchTonesTests.m; sourceTree = "<group>"; };
+		C99D1EC712CC47ED00A9431B /* hoseyify.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = hoseyify.xcconfig; sourceTree = "<group>"; };
+		C99D1EC912CC486E00A9431B /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 		C99D1E7E12CC445600A9431B = {
 			isa = PBXGroup;
 			children = (
+				C99D1EC912CC486E00A9431B /* build.xcconfig */,
+				C99D1EC712CC47ED00A9431B /* hoseyify.xcconfig */,
 				C99D1E8512CC445600A9431B /* Classes */,
 				C99D1E8612CC445600A9431B /* Other Sources */,
 				C99D1E8712CC445600A9431B /* Resources */,
@@ -217,6 +223,8 @@
 				C99D1E9A12CC445600A9431B /* InfoPlist.strings in Resources */,
 				C99D1EA212CC445600A9431B /* MainWindow.xib in Resources */,
 				C99D1EA812CC445600A9431B /* TouchTonesViewController.xib in Resources */,
+				C99D1EC812CC47ED00A9431B /* hoseyify.xcconfig in Resources */,
+				C99D1ECA12CC486E00A9431B /* build.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +351,7 @@
 		};
 		C99D1EC012CC445600A9431B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C99D1EC912CC486E00A9431B /* build.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
@@ -357,6 +366,7 @@
 		};
 		C99D1EC112CC445600A9431B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C99D1EC912CC486E00A9431B /* build.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
