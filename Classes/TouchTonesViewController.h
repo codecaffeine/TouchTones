@@ -11,5 +11,6 @@
 @interface TouchTonesViewController : UIViewController {
 
 }
+@property (nonatomic, retain) IBOutlet UIView *keypadView;
 
 @end
