@@ -11,6 +11,7 @@ TODO
 ----------
 ### Initial Requirements
 Keyboard:
+
 * 24 keys each 40px wide
 ** Landscape only
 ** 32px padding all around
