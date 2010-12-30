@@ -12,9 +12,9 @@ TODO
 ### Initial Requirements
 Keyboard:
 
-* 24 keys each 40px wide
-** Landscape only
-** 32px padding all around
-* Touching each key plays a specific note
-* Support multiple tones at once
-** I believe 11 is the limit according to Matt Gemmell
+*   24 keys each 40px wide
+    *   Landscape only
+    *   32px padding all around
+*   Touching each key plays a specific note
+*   Support multiple tones at once
+    *   I believe 11 is the limit according to Matt Gemmell
