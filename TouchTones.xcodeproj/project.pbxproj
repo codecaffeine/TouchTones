@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C99D1E9112CC445600A9431B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99D1E9012CC445600A9431B /* UIKit.framework */; };
+		C99D1E9312CC445600A9431B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99D1E9212CC445600A9431B /* Foundation.framework */; };
+		C99D1E9512CC445600A9431B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99D1E9412CC445600A9431B /* CoreGraphics.framework */; };
+		C99D1E9A12CC445600A9431B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C99D1E9812CC445600A9431B /* InfoPlist.strings */; };
+		C99D1E9C12CC445600A9431B /* TouchTones-main.m in Sources */ = {isa = PBXBuildFile; fileRef = C99D1E9B12CC445600A9431B /* TouchTones-main.m */; };
+		C99D1E9F12CC445600A9431B /* TouchTonesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C99D1E9E12CC445600A9431B /* TouchTonesAppDelegate.m */; };
+		C99D1EA212CC445600A9431B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99D1EA012CC445600A9431B /* MainWindow.xib */; };
+		C99D1EA512CC445600A9431B /* TouchTonesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C99D1EA412CC445600A9431B /* TouchTonesViewController.m */; };
+		C99D1EA812CC445600A9431B /* TouchTonesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99D1EA612CC445600A9431B /* TouchTonesViewController.xib */; };
+		C99D1EB012CC445600A9431B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99D1E9012CC445600A9431B /* UIKit.framework */; };
+		C99D1EB112CC445600A9431B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99D1E9212CC445600A9431B /* Foundation.framework */; };
+		C99D1EB212CC445600A9431B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99D1E9412CC445600A9431B /* CoreGraphics.framework */; };
+		C99D1EB612CC445600A9431B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C99D1EB512CC445600A9431B /* InfoPlist.strings */; };
+		C99D1EB812CC445600A9431B /* TouchTonesTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C99D1EB712CC445600A9431B /* TouchTonesTests.h */; };
+		C99D1EBA12CC445600A9431B /* TouchTonesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C99D1EB912CC445600A9431B /* TouchTonesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C99D1E8D12CC445600A9431B /* TouchTones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchTones.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99D1E9012CC445600A9431B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C99D1E9212CC445600A9431B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C99D1E9412CC445600A9431B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C99D1E9612CC445600A9431B /* TouchTones-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchTones-Info.plist"; sourceTree = "<group>"; };
+		C99D1E9712CC445600A9431B /* TouchTones-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchTones-Prefix.pch"; sourceTree = "<group>"; };
+		C99D1E9912CC445600A9431B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C99D1E9B12CC445600A9431B /* TouchTones-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TouchTones-main.m"; sourceTree = "<group>"; };
+		C99D1E9D12CC445600A9431B /* TouchTonesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchTonesAppDelegate.h; sourceTree = "<group>"; };
+		C99D1E9E12CC445600A9431B /* TouchTonesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchTonesAppDelegate.m; sourceTree = "<group>"; };
+		C99D1EA112CC445600A9431B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C99D1EA312CC445600A9431B /* TouchTonesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchTonesViewController.h; sourceTree = "<group>"; };
+		C99D1EA412CC445600A9431B /* TouchTonesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchTonesViewController.m; sourceTree = "<group>"; };
+		C99D1EA712CC445600A9431B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TouchTonesViewController.xib; sourceTree = "<group>"; };
+		C99D1EAF12CC445600A9431B /* TouchTonesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchTonesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99D1EB312CC445600A9431B /* TouchTonesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchTonesTests-Info.plist"; sourceTree = "<group>"; };
+		C99D1EB412CC445600A9431B /* TouchTonesTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchTonesTests-Prefix.pch"; sourceTree = "<group>"; };
+		C99D1EB512CC445600A9431B /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = en.lproj/TouchTonesTests/InfoPlist.strings; sourceTree = "<group>"; };
+		C99D1EB712CC445600A9431B /* TouchTonesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchTonesTests.h; sourceTree = "<group>"; };
+		C99D1EB912CC445600A9431B /* TouchTonesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchTonesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C99D1E8A12CC445600A9431B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99D1E9112CC445600A9431B /* UIKit.framework in Frameworks */,
+				C99D1E9312CC445600A9431B /* Foundation.framework in Frameworks */,
+				C99D1E9512CC445600A9431B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99D1EAB12CC445600A9431B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99D1EB012CC445600A9431B /* UIKit.framework in Frameworks */,
+				C99D1EB112CC445600A9431B /* Foundation.framework in Frameworks */,
+				C99D1EB212CC445600A9431B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C99D1E7E12CC445600A9431B = {
+			isa = PBXGroup;
+			children = (
+				C99D1E8512CC445600A9431B /* Classes */,
+				C99D1E8612CC445600A9431B /* Other Sources */,
+				C99D1E8712CC445600A9431B /* Resources */,
+				C99D1E8812CC445600A9431B /* Frameworks */,
+				C99D1E8E12CC445600A9431B /* Products */,
+				C99D1EA912CC445600A9431B /* Tests */,
+			);
+			sourceTree = "<group>";
+		};
+		C99D1E8512CC445600A9431B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C99D1E9D12CC445600A9431B /* TouchTonesAppDelegate.h */,
+				C99D1E9E12CC445600A9431B /* TouchTonesAppDelegate.m */,
+				C99D1EA312CC445600A9431B /* TouchTonesViewController.h */,
+				C99D1EA412CC445600A9431B /* TouchTonesViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C99D1E8612CC445600A9431B /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C99D1E9712CC445600A9431B /* TouchTones-Prefix.pch */,
+				C99D1E9B12CC445600A9431B /* TouchTones-main.m */,
+				C99D1EB412CC445600A9431B /* TouchTonesTests-Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		C99D1E8712CC445600A9431B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C99D1E9612CC445600A9431B /* TouchTones-Info.plist */,
+				C99D1E9812CC445600A9431B /* InfoPlist.strings */,
+				C99D1EA012CC445600A9431B /* MainWindow.xib */,
+				C99D1EA612CC445600A9431B /* TouchTonesViewController.xib */,
+				C99D1EB312CC445600A9431B /* TouchTonesTests-Info.plist */,
+				C99D1EB512CC445600A9431B /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C99D1E8812CC445600A9431B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C99D1E9012CC445600A9431B /* UIKit.framework */,
+				C99D1E9212CC445600A9431B /* Foundation.framework */,
+				C99D1E9412CC445600A9431B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C99D1E8E12CC445600A9431B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C99D1E8D12CC445600A9431B /* TouchTones.app */,
+				C99D1EAF12CC445600A9431B /* TouchTonesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C99D1EA912CC445600A9431B /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C99D1EB712CC445600A9431B /* TouchTonesTests.h */,
+				C99D1EB912CC445600A9431B /* TouchTonesTests.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C99D1E8C12CC445600A9431B /* TouchTones */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99D1EBF12CC445600A9431B /* Build configuration list for PBXNativeTarget "TouchTones" */;
+			buildPhases = (
+				C99D1E8912CC445600A9431B /* Sources */,
+				C99D1E8A12CC445600A9431B /* Frameworks */,
+				C99D1E8B12CC445600A9431B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchTones;
+			productName = TouchTones;
+			productReference = C99D1E8D12CC445600A9431B /* TouchTones.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C99D1EAE12CC445600A9431B /* TouchTonesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99D1EC212CC445600A9431B /* Build configuration list for PBXNativeTarget "TouchTonesTests" */;
+			buildPhases = (
+				C99D1EAA12CC445600A9431B /* Sources */,
+				C99D1EAB12CC445600A9431B /* Frameworks */,
+				C99D1EAC12CC445600A9431B /* Resources */,
+				C99D1EAD12CC445600A9431B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchTonesTests;
+			productName = TouchTonesTests;
+			productReference = C99D1EAF12CC445600A9431B /* TouchTonesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C99D1E8012CC445600A9431B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Code/Caffeine;
+			};
+			buildConfigurationList = C99D1E8312CC445600A9431B /* Build configuration list for PBXProject "TouchTones" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C99D1E7E12CC445600A9431B;
+			productRefGroup = C99D1E8E12CC445600A9431B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C99D1E8C12CC445600A9431B /* TouchTones */,
+				C99D1EAE12CC445600A9431B /* TouchTonesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C99D1E8B12CC445600A9431B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99D1E9A12CC445600A9431B /* InfoPlist.strings in Resources */,
+				C99D1EA212CC445600A9431B /* MainWindow.xib in Resources */,
+				C99D1EA812CC445600A9431B /* TouchTonesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99D1EAC12CC445600A9431B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99D1EB612CC445600A9431B /* InfoPlist.strings in Resources */,
+				C99D1EB812CC445600A9431B /* TouchTonesTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C99D1EAD12CC445600A9431B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C99D1E8912CC445600A9431B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99D1E9C12CC445600A9431B /* TouchTones-main.m in Sources */,
+				C99D1E9F12CC445600A9431B /* TouchTonesAppDelegate.m in Sources */,
+				C99D1EA512CC445600A9431B /* TouchTonesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99D1EAA12CC445600A9431B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99D1EBA12CC445600A9431B /* TouchTonesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C99D1E9812CC445600A9431B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C99D1E9912CC445600A9431B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C99D1EA012CC445600A9431B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C99D1EA112CC445600A9431B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		C99D1EA612CC445600A9431B /* TouchTonesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C99D1EA712CC445600A9431B /* en */,
+			);
+			name = TouchTonesViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C99D1EBB12CC445600A9431B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C99D1EBC12CC445600A9431B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		C99D1EBD12CC445600A9431B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C99D1EBE12CC445600A9431B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		C99D1EC012CC445600A9431B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchTones-Prefix.pch";
+				INFOPLIST_FILE = "TouchTones-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C99D1EC112CC445600A9431B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchTones-Prefix.pch";
+				INFOPLIST_FILE = "TouchTones-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C99D1EC312CC445600A9431B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchTonesTests-Prefix.pch";
+				INFOPLIST_FILE = "TouchTonesTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C99D1EC412CC445600A9431B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchTonesTests-Prefix.pch";
+				INFOPLIST_FILE = "TouchTonesTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		C99D1EC512CC445600A9431B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = TouchTonesTests;
+			};
+			name = Debug;
+		};
+		C99D1EC612CC445600A9431B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = TouchTonesTests;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C99D1E8312CC445600A9431B /* Build configuration list for PBXProject "TouchTones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99D1EBB12CC445600A9431B /* Debug */,
+				C99D1EBC12CC445600A9431B /* Release */,
+				C99D1EBD12CC445600A9431B /* Debug */,
+				C99D1EBE12CC445600A9431B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C99D1EBF12CC445600A9431B /* Build configuration list for PBXNativeTarget "TouchTones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99D1EC012CC445600A9431B /* Debug */,
+				C99D1EC112CC445600A9431B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C99D1EC212CC445600A9431B /* Build configuration list for PBXNativeTarget "TouchTonesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99D1EC312CC445600A9431B /* Debug */,
+				C99D1EC412CC445600A9431B /* Release */,
+				C99D1EC512CC445600A9431B /* Debug */,
+				C99D1EC612CC445600A9431B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C99D1E8012CC445600A9431B /* Project object */;
+}
