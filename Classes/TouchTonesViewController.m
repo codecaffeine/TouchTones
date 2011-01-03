@@ -61,6 +61,7 @@
 
 - (void)dealloc {
     [keypadView release];
+    [audioPlayer release];
     [super dealloc];
 }
 
