@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9655FC512D106350069A498 /* 60.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9655FBE12D106350069A498 /* 60.caf */; };
+		C9655FC612D106350069A498 /* 62.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9655FBF12D106350069A498 /* 62.caf */; };
+		C9655FC712D106350069A498 /* 64.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9655FC012D106350069A498 /* 64.caf */; };
+		C9655FC812D106350069A498 /* 65.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9655FC112D106350069A498 /* 65.caf */; };
+		C9655FC912D106350069A498 /* 67.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9655FC212D106350069A498 /* 67.caf */; };
+		C9655FCA12D106350069A498 /* 69.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9655FC312D106350069A498 /* 69.caf */; };
+		C9655FCB12D106350069A498 /* 71.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9655FC412D106350069A498 /* 71.caf */; };
+		C9655FDC12D15EE50069A498 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9655FDB12D15EE50069A498 /* AVFoundation.framework */; };
 		C99D1E9112CC445600A9431B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99D1E9012CC445600A9431B /* UIKit.framework */; };
 		C99D1E9312CC445600A9431B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99D1E9212CC445600A9431B /* Foundation.framework */; };
 		C99D1E9512CC445600A9431B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99D1E9412CC445600A9431B /* CoreGraphics.framework */; };
@@ -27,6 +35,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C9655FBE12D106350069A498 /* 60.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 60.caf; sourceTree = "<group>"; };
+		C9655FBF12D106350069A498 /* 62.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 62.caf; sourceTree = "<group>"; };
+		C9655FC012D106350069A498 /* 64.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 64.caf; sourceTree = "<group>"; };
+		C9655FC112D106350069A498 /* 65.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 65.caf; sourceTree = "<group>"; };
+		C9655FC212D106350069A498 /* 67.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 67.caf; sourceTree = "<group>"; };
+		C9655FC312D106350069A498 /* 69.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 69.caf; sourceTree = "<group>"; };
+		C9655FC412D106350069A498 /* 71.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 71.caf; sourceTree = "<group>"; };
+		C9655FDB12D15EE50069A498 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C99D1E8D12CC445600A9431B /* TouchTones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchTones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99D1E9012CC445600A9431B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C99D1E9212CC445600A9431B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,6 +75,7 @@
 				C99D1E9112CC445600A9431B /* UIKit.framework in Frameworks */,
 				C99D1E9312CC445600A9431B /* Foundation.framework in Frameworks */,
 				C99D1E9512CC445600A9431B /* CoreGraphics.framework in Frameworks */,
+				C9655FDC12D15EE50069A498 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +92,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C9655FBD12D106350069A498 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				C9655FBE12D106350069A498 /* 60.caf */,
+				C9655FBF12D106350069A498 /* 62.caf */,
+				C9655FC012D106350069A498 /* 64.caf */,
+				C9655FC112D106350069A498 /* 65.caf */,
+				C9655FC212D106350069A498 /* 67.caf */,
+				C9655FC312D106350069A498 /* 69.caf */,
+				C9655FC412D106350069A498 /* 71.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		C99D1E7E12CC445600A9431B = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +117,7 @@
 				C99D1E8812CC445600A9431B /* Frameworks */,
 				C99D1E8E12CC445600A9431B /* Products */,
 				C99D1EA912CC445600A9431B /* Tests */,
+				C9655FDB12D15EE50069A498 /* AVFoundation.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +145,7 @@
 		C99D1E8712CC445600A9431B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C9655FBD12D106350069A498 /* Sounds */,
 				C99D1E9612CC445600A9431B /* TouchTones-Info.plist */,
 				C99D1E9812CC445600A9431B /* InfoPlist.strings */,
 				C99D1EA012CC445600A9431B /* MainWindow.xib */,
@@ -225,6 +258,13 @@
 				C99D1EA812CC445600A9431B /* TouchTonesViewController.xib in Resources */,
 				C99D1EC812CC47ED00A9431B /* hoseyify.xcconfig in Resources */,
 				C99D1ECA12CC486E00A9431B /* build.xcconfig in Resources */,
+				C9655FC512D106350069A498 /* 60.caf in Resources */,
+				C9655FC612D106350069A498 /* 62.caf in Resources */,
+				C9655FC712D106350069A498 /* 64.caf in Resources */,
+				C9655FC812D106350069A498 /* 65.caf in Resources */,
+				C9655FC912D106350069A498 /* 67.caf in Resources */,
+				C9655FCA12D106350069A498 /* 69.caf in Resources */,
+				C9655FCB12D106350069A498 /* 71.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
