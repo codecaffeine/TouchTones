@@ -7,13 +7,16 @@
 //
 
 #import "TouchTonesViewController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface TouchTonesViewController ()
+@property (nonatomic, retain) AVAudioPlayer *audioPlayer;
 - (void)handleTap:(UITapGestureRecognizer *)tapGestureRecognizer;
 @end
 
 @implementation TouchTonesViewController
 @synthesize keypadView;
+@synthesize audioPlayer;
 
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
@@ -27,6 +30,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSError *error;
+    self.audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"60" ofType:@"caf"]] 
+                                                         error:&error];
+    if (!self.audioPlayer && error) {
+        NSLog(@"error: %@", error);
+    }
+    [self.audioPlayer prepareToPlay];
+    
     UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
     [self.keypadView addGestureRecognizer:tapGestureRecognizer];
     [tapGestureRecognizer release];
@@ -56,6 +67,7 @@
 - (void)handleTap:(UITapGestureRecognizer *)tapGestureRecognizer {
     NSLog(@"tap: %@", tapGestureRecognizer);
     CGPoint locationInView = [tapGestureRecognizer locationInView:self.keypadView];
+    [self.audioPlayer play];
     NSLog(@"locationInView: %@", NSStringFromCGPoint(locationInView));
     NSUInteger key = (NSUInteger)floorf(locationInView.x / 40.0f);
     NSLog(@"key: %lu", (unsigned long)key);
